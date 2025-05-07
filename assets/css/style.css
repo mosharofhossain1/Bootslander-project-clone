@@ -375,3 +375,109 @@ nav ul li a:hover::after {
 }
 
 /* Counter section style end */
+
+/* Details section style start */
+
+#details {
+    margin-top: 50px;
+}
+
+.innerDetails {
+    margin-top: 50px;
+}
+
+.sectionTitle {
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Raleway, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #444;
+}
+
+.sectionTitle::after {
+    content: "";
+    width: 150px;
+    height: 1.2px;
+    background-color: #1acc8d;
+    display: block;
+    position: absolute;
+    left: 85px;
+    bottom: 10px;
+}
+
+.sectionSubTitles {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #10058C;
+}
+
+.detaileLeftContents {
+    margin-top: 40px;
+}
+
+.leftImg img {
+    max-width: 100%;
+}
+
+.detailsRightContents {
+    margin-top: 30px;
+}
+
+.detailRightTitle {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    margin: 15px 0px;
+    color: #040677;
+}
+
+.detailsRightPera {
+    margin: 20px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    line-height: 24px;
+    color: #444;
+}
+
+.detailsList p {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.detailsList p i {
+    color: #1acc8d;
+    font-size: 16px;
+    /* font-weight: 400; */
+}
+
+.detailsList p i {
+    margin-right: 15px;
+}
+
+.detailsList p>.checkTitle {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #444;
+}
+
+
+.detailsRightContents .firstPera {
+    font-style: italic;
+}
+
+.detailsList .secondPera {
+    color: #444;
+}
+
+.secondInnerDetails {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* Details section style end */

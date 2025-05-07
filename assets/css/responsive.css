@@ -25,6 +25,27 @@
     .counterDiv {
         margin-top: 10px;
     }
+
+    /* DEtails section start */
+    .innerDetails {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .detaileLeftContents {
+        flex-basis: 40%;
+    }
+
+    .detailsRightContents {
+        flex-basis: 55%;
+    }
+
+    .secondInnerDetails {
+        display: flex;
+        flex-direction: row;
+    }
+
 }
 
 
