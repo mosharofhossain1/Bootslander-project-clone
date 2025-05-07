@@ -46,6 +46,21 @@
         flex-direction: row;
     }
 
+    /* Gallry Section  */
+    .innerGallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .galleryBox {
+        overflow: hidden;
+        /* border: 2px solid red; */
+        height: 182px;
+        margin-top: 15px;
+    }
+
 }
 
 
@@ -135,6 +150,14 @@
 
     .counterDiv {
         margin-top: 25px;
+    }
+
+    /* Gallery section  */
+    .innerGallery {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 10px;
+        row-gap: 10px;
     }
 }
 
