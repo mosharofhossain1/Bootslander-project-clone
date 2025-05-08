@@ -509,3 +509,77 @@ nav ul li a:hover::after {
 }
 
 /* Gallery section end */
+
+/* Feedback section start */
+#feedback {
+    background-image: linear-gradient(rgba(8, 0, 95, .7), rgba(8, 0, 95, .7)), url('../images/testimonials-bg.jpg');
+    height: 450px;
+    background-position: left center;
+    background-size: cover;
+}
+
+
+
+.feedbackContent {
+    text-align: center;
+    /* border: 1px solid red; */
+    padding: 100px 0px;
+
+}
+
+.feedbackContent h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0px;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+}
+
+.feedbackContent p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, .4);
+    margin: 10px 0px;
+    font-family: "Raleway", sans-serif;
+}
+
+.feedbackContent img {
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid #040677;
+    height: auto;
+}
+
+.feedbackContent .socialIcons i {
+    font-size: 13px;
+    color: #ffbb2c;
+    margin: 10px 0px;
+}
+
+.feedbackContent .fedbackDesc {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    line-height: 24px;
+    color: #fff;
+}
+
+.feedbackContent .fedbackDesc::before {
+    content: "\f10d";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 16px;
+    margin-right: 15px;
+    color: #9C9AB4;
+}
+
+.feedbackContent .fedbackDesc::after {
+    content: "\f10e";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 16px;
+    margin-left: 15px;
+    color: #9C9AB4;
+}
+
+/* Feedback section end */
