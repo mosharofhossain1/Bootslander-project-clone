@@ -74,6 +74,26 @@
         position: relative;
     }
 
+    /* Contact secton start */
+    .nameEmailInput {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 15px;
+    }
+
+    .nameEmailInput div {
+        width: 50%;
+    }
+
+    .innerFooter {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 15px;
+    }
+
+    .innerFooter .fourthDiv {
+        width: 100%;
+    }
 }
 
 
@@ -190,6 +210,43 @@
 
     .services {
         text-align: left;
+    }
+
+    /* Frequently section style  */
+    .innerFrequently {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* Contact section start */
+    .innerContact {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contactLeftInfo {
+        width: 40%;
+    }
+
+    .contactRightInfo {
+        width: 60%;
+    }
+
+    /* Footer section  */
+    .innerFooter {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 15px;
+    }
+
+    .linedivider {
+        margin: 20px 0px;
+        display: block;
+    }
+
+    .copyrightText,
+    .authorText {
+        display: block;
     }
 }
 

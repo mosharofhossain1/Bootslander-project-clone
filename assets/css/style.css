@@ -404,12 +404,13 @@ nav ul li a:hover::after {
     background-color: #1acc8d;
     display: block;
     position: absolute;
-    left: 85px;
-    bottom: 10px;
+    left: 75px;
+    bottom: 7px;
+    font-size: 28px;
 }
 
 .sectionSubTitles {
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 700;
     text-transform: uppercase;
     color: #10058C;
@@ -745,7 +746,7 @@ sub {
 }
 
 .services {
-    text-align: left;
+    text-align: center;
 }
 
 .creditInfo {
@@ -779,3 +780,307 @@ sub {
 }
 
 /* Pricing section end */
+
+/* Frequently Asked Question start */
+#frequently {
+    padding: 20px 0px;
+    background-color: #F4F5FE;
+    margin-top: 50px;
+}
+
+.innerFrequently {
+    display: flex;
+    flex-direction: column-reverse;
+    column-gap: 30px;
+}
+
+.infosContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px 15px;
+    margin: 20px 0px;
+    align-items: center;
+}
+
+.frequentlyTitle {
+    font-size: 34px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 15px;
+}
+
+.frequentlyTitle span {
+    font-weight: 700;
+    color: #10058C;
+}
+
+.frequentlyDesc {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.infosContainer span {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    color: #10058C;
+    transition: .3s;
+}
+
+.infosContainer span:hover {
+    color: #1acc8d;
+}
+
+.infosContainer .questionIcon {
+    color: #1acc8d;
+    margin-right: 10px;
+    border: 1px solid #1acc8d;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.frequentlyRightContent img {
+    margin: 20px 0px;
+    max-width: 100%;
+}
+
+/* Frequently Asked Question end */
+
+/* Contact section start */
+
+#contact {
+    padding: 50px 0px;
+}
+
+.innerContact {
+    margin-top: 40px;
+}
+
+.contactinnerContainer {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+
+}
+
+.contactinnerContainer span {
+    margin-right: 15px;
+    background-color: #F6FDFB;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: #1acc8d;
+    transition: .3s;
+}
+
+.contactinnerContainer:hover span {
+    background-color: #1acc8d;
+    color: #fff;
+}
+
+.contactinnerContainer .contactTitle h4 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    color: #10058C;
+    margin: 10px 0px;
+}
+
+.contactinnerContainer .contactTitle p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #444;
+}
+
+
+
+.nameEmailInput div input {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 8px 15px;
+    outline: none;
+    border: 1px solid #444;
+}
+
+.subject input {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 8px 15px;
+    outline: none;
+}
+
+.messageDiv textarea {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 8px 15px;
+    height: 150px;
+    outline: none;
+    border: 1px solid #444;
+}
+
+.sendBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sendMesage {
+    padding: 10px 15px;
+    background-color: #1acc8d;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    display: block;
+}
+
+/* Contact section end */
+
+/* Footer section start */
+#footer {
+    background-color: #10058C;
+    padding: 50px 0px;
+}
+
+.bootslander .bootslanderTitle {
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 30px;
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+}
+
+.bootslanderAddress {
+    margin-bottom: 20px;
+}
+
+.bootslanderAddress p {
+    font-size: 14px;
+    font-family: "Raleway", sans-serif;
+    color: rgba(255, 255, 255, .9);
+    margin-bottom: 6px;
+}
+
+.bootsSocials i {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid #ffffff91;
+    line-height: 45px;
+    text-align: center;
+    margin-right: 10px;
+    color: #ffffff99;
+    transition: .3s
+}
+
+.bootsSocials i:hover {
+    color: #1acc8d;
+}
+
+.usefulLinks {
+    margin: 25px 0px;
+}
+
+.usefulLinks .usefulTitle {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    color: #ffffffce;
+    margin-bottom: 15px;
+}
+
+.usefulLinks a {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffffc1;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.newsLetterDesc {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.subscribeDiv {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.subscribeDiv input {
+    padding: 11px 15px;
+    background-color: transparent;
+    /* outline: none; */
+    border: 1px solid #444;
+    border-radius: 3px 0px 0px 3px;
+    width: 100%;
+}
+
+.subscribeDiv input:focus {
+    border: 1px solid #1acc8d;
+    outline: none;
+}
+
+.subscribeDiv button {
+    padding: 9px 15px;
+    background-color: #1acc8d;
+    color: #fff;
+    outline: none;
+    border: 1px solid #1acc8d;
+    border-radius: 0px 3px 3px 0px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+
+.copyrightText {
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    margin: 15px 0px;
+    display: none;
+}
+
+.authorText {
+    text-align: center;
+    color: #fff;
+    margin: 10px 0px;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    display: none;
+}
+
+.authorText span {
+    color: #1acc8d;
+    font-weight: bold;
+}
+
+.linedivider {
+    width: 100%;
+    height: .1px;
+    background-color: #444;
+    display: none;
+}
+
+/* Footer section end */
