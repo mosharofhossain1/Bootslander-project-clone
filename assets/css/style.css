@@ -138,6 +138,7 @@ nav ul li a:hover::after {
 
 .bannerLeftContents span {
     color: #fff;
+    border-bottom: 4px solid #1acc8d;
 }
 
 .bannerLeftContents p {
@@ -253,7 +254,7 @@ nav ul li a:hover::after {
 
 .rightBoxContents {
     margin: 15px 0px;
-    padding: 50px 40px;
+    padding: 55px 40px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 7px;
 }
@@ -518,13 +519,14 @@ nav ul li a:hover::after {
     background-position: left center;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.feedbackMiddle {
 
-.feedbackContent {
     text-align: center;
-    /* border: 1px solid red; */
-    padding: 100px 0px;
 
 }
 
@@ -698,9 +700,15 @@ nav ul li a:hover::after {
     margin: 10px 0px;
 }
 
-.priceValie sup,
-sub {
-    font-size: 28px;
+.priceValie sup {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    color: #1acc8d;
+}
+
+.priceValie sub {
+    font-size: 40px;
     font-weight: 700;
     font-family: "Raleway", sans-serif;
     color: #1acc8d;
@@ -746,7 +754,7 @@ sub {
 }
 
 .services {
-    text-align: center;
+    text-align: left;
 }
 
 .creditInfo {
