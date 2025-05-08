@@ -180,6 +180,17 @@
         column-gap: 10px;
         row-gap: 10px;
     }
+
+    .innerPricing {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+        margin-top: 30px;
+    }
+
+    .services {
+        text-align: left;
+    }
 }
 
 

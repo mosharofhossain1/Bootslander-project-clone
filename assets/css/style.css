@@ -656,3 +656,126 @@ nav ul li a:hover::after {
 }
 
 /* Team section style end */
+
+/* Pricing section start */
+
+.pricingBox {
+    padding: 15px 25px;
+    background-color: #F6FDFB;
+    margin-top: 20px;
+    position: relative;
+}
+
+.popularText {
+    background-color: #1acc8d;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.pricingTitle {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 10px;
+    color: #10058C;
+}
+
+.pricingDesc {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.priceValie {
+    margin: 10px 0px;
+}
+
+.priceValie sup,
+sub {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    color: #1acc8d;
+}
+
+.priceValie span {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+    color: #444;
+}
+
+.pricingBtn {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    border: 1px solid #444;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: #444;
+    transition: .3s;
+    outline: none;
+    cursor: pointer;
+}
+
+.pricingBtn:hover {
+    background-color: #1acc8d;
+    border-color: transparent;
+    color: #fff;
+}
+
+.pricingBox .creditInfo {
+    text-align: center;
+    margin: 15px 0px;
+    color: #444;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.services {
+    text-align: left;
+}
+
+.creditInfo {
+    margin: 15px 0px;
+}
+
+.services .cross {
+    text-decoration: line-through;
+    color: #444;
+}
+
+.services li {
+    list-style: none;
+    margin: 17px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #444;
+}
+
+.services li i {
+    color: #1acc8d;
+    margin-right: 12px;
+}
+
+.activeBtn {
+    background-color: #1acc8d;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+
+/* Pricing section end */
