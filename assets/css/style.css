@@ -516,8 +516,8 @@ nav ul li a:hover::after {
     height: 450px;
     background-position: left center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
-
 
 
 .feedbackContent {
@@ -583,3 +583,76 @@ nav ul li a:hover::after {
 }
 
 /* Feedback section end */
+
+/* Team section style start */
+#team {
+    padding: 50px 0px;
+}
+
+.teamBox {
+    margin: 60px 0px;
+    position: relative;
+}
+
+.teamBox img {
+    max-width: 100%;
+}
+
+.boxbtnTitle {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    color: #10058C;
+    margin: 10px 0px;
+}
+
+.teamBox .boxLine::after {
+    content: "";
+    width: 60px;
+    height: 1px;
+    display: block;
+    background-color: #B4B4B4;
+
+}
+
+.teamBox .temBtmBox {
+    /* width: 600px; */
+    padding: 20px 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -50px;
+    left: 20px;
+    right: 20px;
+
+}
+
+.socialTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialTitle span {
+    font-size: 13px;
+    font-style: italic;
+    color: #444;
+    margin: 10px 0px;
+}
+
+.socialTitle .socialIcon {
+
+    color: #444;
+}
+
+.socialTitle .socialIcon i {
+    margin-left: 7px;
+    font-size: 16px;
+    transition: .3s;
+}
+
+.socialTitle .socialIcon i:hover {
+    color: #1acc8d;
+}
+
+/* Team section style end */
