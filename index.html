@@ -7,6 +7,10 @@
     <title>Bootslander Project Review</title>
     <!-- Font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+    <!-- Swiper css CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <!-- Main css  -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
@@ -356,25 +360,101 @@
             <div class="container">
                 <div class="innerFeedback">
                     <div class="feedbackMiddle">
-                        <div class="feedbackContent">
-                            <img src="./assets/images/testimonials-4.jpg" alt="">
-                            <h3>Matt Brandon</h3>
-                            <p>Developer</p>
-                            <div class="socialIcons">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="feedbackContent">
+                                        <img src="./assets/images/testimonials-1.jpg" alt="">
+                                        <h3>Saul Goodman</h3>
+                                        <p>CEO & Founder</p>
+                                        <div class="socialIcons">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
 
-                            <p class="fedbackDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-                                molestiae
-                                <br>
-                                numquam eligendi.
-                                Recusandae quis doloremque officia et, quos corrupti necessitatibus.
-                            </p>
+                                        <p class="fedbackDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Saepe
+                                            molestiae
+                                            <br>
+                                            numquam eligendi.
+                                            Recusandae quis doloremque officia et, quos corrupti necessitatibus.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="feedbackContent">
+                                        <img src="./assets/images/testimonials-2.jpg" alt="">
+                                        <h3>Sara Wilson </h3>
+                                        <p>Designer</p>
+                                        <div class="socialIcons">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+
+                                        <p class="fedbackDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Saepe
+                                            molestiae
+                                            <br>
+                                            numquam eligendi.
+                                            Recusandae quis doloremque officia et, quos corrupti necessitatibus.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="feedbackContent">
+                                        <img src="./assets/images/testimonials-3.jpg" alt="">
+                                        <h3>Jena Karlis</h3>
+                                        <p>Store Owner</p>
+                                        <div class="socialIcons">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+
+                                        <p class="fedbackDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Saepe
+                                            molestiae
+                                            <br>
+                                            numquam eligendi.
+                                            Recusandae quis doloremque officia et, quos corrupti necessitatibus.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="feedbackContent">
+                                        <img src="./assets/images/testimonials-5.jpg" alt="">
+                                        <h3>Johan Lerason</h3>
+                                        <p>Enterprenuor</p>
+                                        <div class="socialIcons">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+
+                                        <p class="fedbackDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Saepe
+                                            molestiae
+                                            <br>
+                                            numquam eligendi.
+                                            Recusandae quis doloremque officia et, quos corrupti necessitatibus.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -691,6 +771,33 @@
         </div>
     </footer>
     <!-- Footer section end -->
+
+    <!-- Swiper js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.mySwiper', {
+            // Optional parameters
+
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            // Navigation arrows
+
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        });
+    </script>
+
 </body>
 
 </html>
