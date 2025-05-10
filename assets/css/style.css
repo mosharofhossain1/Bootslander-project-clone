@@ -59,6 +59,8 @@ body {
 
 /* Default css styles end */
 
+
+
 /* Header section style start */
 
 #header {
@@ -832,10 +834,59 @@ nav ul li a:hover::after {
     margin-top: 50px;
 }
 
+.frequentlyLeftContents .accordion {
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.accordion input {
+    display: none;
+}
+
+.accordion-title {
+    display: block;
+    /* background: #007bff; */
+    color: white;
+    /* padding: 12px; */
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background: #f1f1f1;
+    border-radius: 0 0 5px 5px;
+    /* padding: 0 12px; */
+}
+
+.accordion-content p {
+    background-color: #fff;
+    margin-top: 0px;
+}
+
+.accordion input:checked+.accordion-title+.accordion-content {
+    max-height: 150px;
+    padding: 10px;
+    margin-top: -23px;
+    background: white;
+}
+
 .innerFrequently {
     display: flex;
     flex-direction: column-reverse;
     column-gap: 30px;
+}
+
+.frequentlyLeftContents {
+    width: 55%;
+}
+
+.frequentlyRightContent {
+    width: 45%;
 }
 
 .infosContainer {
@@ -845,6 +896,10 @@ nav ul li a:hover::after {
     padding: 20px 15px;
     margin: 20px 0px;
     align-items: center;
+}
+
+.infosContainer .fa-angle-right {
+    color: #444;
 }
 
 .frequentlyTitle {
