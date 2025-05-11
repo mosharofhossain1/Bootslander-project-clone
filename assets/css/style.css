@@ -90,10 +90,25 @@ body {
 .menubar {
     font-size: 20px;
     color: #fff;
+    display: block;
 }
 
-nav {
+
+/* Responsive Menu bar Design  */
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    background-color: #040677;
     display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px;
+}
+nav {
+    /* display: none; */
 }
 
 nav ul {
@@ -141,6 +156,14 @@ nav ul li a:hover::after {
     left: 0;
 }
 
+.innerNav li:last-child a::after{
+    display: none;
+}
+
+nav svg{
+    color: #fff;
+    font-size: 15px;
+}
 /* Header section style end */
 
 

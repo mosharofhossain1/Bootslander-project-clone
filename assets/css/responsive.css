@@ -1,4 +1,26 @@
 /* phone Device  */
+@media screen and (max-width:991px) {
+     .sidebar{
+        max-width: 100%;
+    }
+    nav .innerNav .menubar{
+    color: #fff !important;
+    font-size: 25px;
+}
+   .innerNav .menubar {
+        display: block !important;
+    }
+.innerNav .hideonMobile{
+    display: none;
+}
+
+@media screen and (max-width:500px) {
+    .sidebar{
+        max-width: 100%;
+    }
+}
+
+}
 @media screen and (min-width:768px) {
     .aboutRightContents {
         display: grid;
@@ -100,12 +122,12 @@
 /* Tablet device  */
 
 @media screen and (min-width: 992px) {
-    .menubar {
+  .innerNav .menubar {
         display: none;
     }
 
     nav {
-        display: block;
+        /* display: block; */
     }
 
     .bannerInner {
