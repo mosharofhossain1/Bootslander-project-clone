@@ -116,7 +116,9 @@ nav ul {
     align-items: center;
     justify-content: space-between;
 }
-
+nav ul .svgStyle{
+    color: #fff;
+}
 nav ul li {
     list-style: none;
     padding: 0px 10px;
@@ -160,9 +162,9 @@ nav ul li a:hover::after {
     display: none;
 }
 
-nav svg{
+.sidebar li .fa-xmark{
     color: #fff;
-    font-size: 15px;
+    font-size: 18px;
 }
 /* Header section style end */
 
